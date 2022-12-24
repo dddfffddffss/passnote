@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent"
+            android:id="@+id/main_tag"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/main_tag_tv"
+            android:layout_alignLeft="@id/main_tag_tv"
+            android:layout_alignRight="@id/main_tag_tv"
+            android:layout_alignTop="@id/main_tag_tv"
+            android:scaleType="fitXY"
+            android:background="@drawable/tag_cell"
+            android:layout_alignEnd="@id/main_tag_tv"
+            android:layout_alignStart="@id/main_tag_tv" />
+
+        <TextView
+            android:id="@+id/main_tag_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="sdfsdfsdfsdfsf"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

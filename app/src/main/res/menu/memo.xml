@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/memo_menu_edit"
+        android:title="수정"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/memo_menu_cancle"
+        android:title="취소"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/memo_menu_old"
+        android:title="이전 메모"
+        app:showAsAction="never"/>
+</menu>

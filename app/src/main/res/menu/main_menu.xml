@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="추가"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_memo"
+        android:title="메모"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_tag_status"
+        android:title="테그 - 비번 현황"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_tag_add"
+        android:title="테그 추가, 변경"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/backup"
+        android:title="백업"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/restore"
+        android:title="복원"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/get_csv"
+        android:title="csv로 가져오기"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/edit_apppass"
+        android:title="패스워드 바꾸기"
+        app:showAsAction="never"/>
+</menu>

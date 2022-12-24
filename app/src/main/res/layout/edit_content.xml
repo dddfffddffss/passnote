@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/edit_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/delete"/>
+
+        <Button
+            android:id="@+id/edit_cancle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/cancle"/>
+
+        <Button
+            android:id="@+id/edit_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/save"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@drawable/name_image"
+        android:gravity="start"
+        android:singleLine="true"
+        android:paddingHorizontal="10dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@drawable/id_image"
+        android:gravity="start"
+        android:singleLine="true"
+        android:paddingHorizontal="10dp"
+        android:ellipsize="middle"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@drawable/pass_image"
+        android:gravity="start"
+        android:paddingHorizontal="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textSize="25sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/edit_tag_to_pass"
+        android:layout_width="match_parent"
+        android:ellipsize="middle"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:textSize="30sp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

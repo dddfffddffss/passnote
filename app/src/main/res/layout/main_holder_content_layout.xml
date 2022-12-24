@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="110sp"
+    android:orientation="vertical"
+    android:background="@drawable/tag_background"
+    android:focusable="true"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/name_image"
+        android:layout_marginHorizontal="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/login_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/id_image"
+        android:layout_marginHorizontal="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/login_pass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/pass_image"
+        android:layout_marginHorizontal="10dp"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textSize="25sp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
