@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         contents_adapter = new contents_adapter(getApplicationContext(), intent, pass_data);
         contents.setAdapter(contents_adapter);
 
-        // 3. 테그 리사이클러
+        // 3. 테그 리사이클러 dsfdfsfsdsfsd
         tag = findViewById(R.id.tag);
         tag.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
